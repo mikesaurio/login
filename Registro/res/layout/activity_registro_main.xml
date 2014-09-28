@@ -13,10 +13,12 @@
         android:text="@string/registro_main_btn_aceptar" />
 
     <FrameLayout
+        android:id="@+id/frameLayout1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
+        android:background="@drawable/marco"
         android:padding="5dp" >
 
         <LinearLayout
@@ -54,5 +56,15 @@
             </EditText>
         </LinearLayout>
     </FrameLayout>
+
+    <TextView
+        android:id="@+id/registro_main_tv_registrate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/frameLayout1"
+        android:layout_below="@+id/frameLayout1"
+        android:autoLink="web"
+        android:paddingTop="5dp"
+        android:text="@string/registro_main_et_registrate" />
 
 </RelativeLayout>

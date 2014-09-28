@@ -9,6 +9,8 @@
     <string name="registro_main_et_nombre">Carlos</string>
     <string name="registro_main_et_contrasena">*******</string>
     <string name="title_activity_saludo">SaludoActivity</string>
-      <string name="saludo_activity_saludo">Hola: </string>
+    <string name="saludo_activity_saludo">Hola: </string>
+    <string name="registro_main_et_registrate">Registrate</string>
+    <string name="title_activity_registrarse">RegistrarseActivity</string>
 
 </resources>

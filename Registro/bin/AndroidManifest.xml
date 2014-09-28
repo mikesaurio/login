@@ -26,6 +26,11 @@
             android:name=".SaludoActivity"
             android:label="@string/title_activity_saludo" >
         </activity>
+        <activity
+            android:name=".RegistrarseActivity"
+            android:label="@string/title_activity_registrarse" 
+             android:windowSoftInputMode="stateVisible|adjustResize">
+        </activity>
     </application>
 
 </manifest>
